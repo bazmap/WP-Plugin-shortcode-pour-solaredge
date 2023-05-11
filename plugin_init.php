@@ -16,7 +16,7 @@ namespace plugin_sc_solaredge;
  * Plugin Name:       Shortcode pour SolarEdge
  * Plugin URI:        https://www.plugin.com
  * Description:       Plugin NON-OFFICIEL d'affichage des données de SolarEdge au sein de WordPress.
- * Version:           0.1.0
+ * Version:           1.0.0-beta
  * Author:            Arthur Bazin
  * Author URI:        https://www.arthurbazin.com
  * Licence:           GPL2
