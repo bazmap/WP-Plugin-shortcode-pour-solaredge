@@ -251,7 +251,7 @@ class functionalities {
 
 				$data['data'][$site]['production_totale'] = $this->add_power_prefix($site_data['overview']['overview']['lifeTimeData']['energy']).'Wh';
 				$data['data'][$site]['revenu_total'] = round($site_data['overview']['overview']['lifeTimeData']['revenue'], 2).'€';
-				$data['data'][$site]['production_année'] = $this->add_power_prefix($site_data['overview']['overview']['lastYearData']['energy']).'Wh';
+				$data['data'][$site]['production_annee'] = $this->add_power_prefix($site_data['overview']['overview']['lastYearData']['energy']).'Wh';
 				$data['data'][$site]['production_mois'] = $this->add_power_prefix($site_data['overview']['overview']['lastMonthData']['energy']).'Wh';
 				$data['data'][$site]['production_jour'] = $this->add_power_prefix($site_data['overview']['overview']['lastDayData']['energy']).'Wh';
 				$data['data'][$site]['production_instantannee'] = $this->add_power_prefix($site_data['overview']['overview']['currentPower']['power']).'W';
