@@ -238,6 +238,33 @@ class admin_page__general {
 	</li>
 </ul>
 </p>
+
+<p>
+	Pour récupérer les données, une clé d'API est nécessaire et disponible depuis <a href=\"https://www.solaredge.com/fr/service/support/\" target=\"_blank\">le site de l'API</a>.<br>
+	Voici un extrait de la documentation officielle :  
+</p>
+<p>
+	► To generate an account users API key:<br>
+	In the Account Admin > Company Details tab > API Access section:
+	<ol>
+		<li>Acknowledge reading and agreeing to the SolarEdge API Terms & Conditions.</li>
+		<li>Click Generate API key.</li>
+		<li>Copy the key.</li>
+		<li>Click Save.</li>
+		<li>Use the key in all API requests</li>
+	</ol>
+</p>
+<p>
+	► To generate a Site API key:<br>
+	In the Site Admin > Site Access tab > Access Control tab > API Access section:
+	<ol>
+		<li>Acknowledge reading and agreeing to the SolarEdge API Terms & Conditions.</li>
+		<li>Click Generate API key.</li>
+		<li>Copy the key.</li>
+		<li>Click Save.</li>
+		<li>Use the key in all API requests</li>
+	</ol>
+</p>
 "
 			)
 		);
@@ -330,7 +357,7 @@ class admin_page__general {
 
 		?>
 			<input id="<?php echo esc_attr( $label ); ?>" class="regular-text" type="text" name="<?php echo esc_attr( $setting_name.'['.$sub_setting_name.']' ); ?>" value="<?php echo esc_attr( $value ); ?>"><br/>
-			<p>La clé d'API peut être récupérée sur le site d'Atmo Auvergne Rhône Alpes : <a href="http://api.atmo-aura.fr/documentation" target="_blank">https://api.atmo-aura.fr/documentation</a></p>
+			<p>La clé d'API peut être récupérée depuis votre espace SolarEdge : <a href="https://www.solaredge.com/fr/service/support/" target="_blank">https://www.solaredge.com/fr/service/support/</a></p>
 		<?php
 	}
 

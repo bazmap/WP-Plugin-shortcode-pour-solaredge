@@ -7,6 +7,24 @@ Plugin WordPress pour récupérer et afficher les données de l'API SolarEdge.
 
 Pour récupérer les données, une clé d'API est nécessaire et disponible depuis [le site de l'API](https://www.solaredge.com/fr/service/support/).
 
+Voici un extrait de la documentation officielle :  
+
+► To generate an account users API key:  
+In the Account Admin > Company Details tab > API Access section:
+- 1 Acknowledge reading and agreeing to the SolarEdge API Terms & Conditions.
+- 2 Click Generate API key.
+- 3 Copy the key.
+- 4 Click Save.
+- 5 Use the key in all API requests  
+  
+► To generate a Site API key:  
+In the Site Admin > Site Access tab > Access Control tab > API Access section:
+- 1 Acknowledge reading and agreeing to the SolarEdge API Terms & Conditions.
+- 2 Click Generate API key.
+- 3 Copy the key.
+- 4 Click Save.
+- 5 Use the key in all API requests
+
 
 ## Documentation
 
